@@ -1,7 +1,7 @@
 # -MostafaELFEEL's-Project-1-professional-embedded-course-Udacity
 
 
-## Withdrawal Transactions
+## Withdrawal or Payment Transactions
 
 
 ### The project is divided into 4 sections:
