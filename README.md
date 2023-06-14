@@ -1,29 +1,30 @@
 # -MostafaELFEEL's-Project-1-professional-embedded-course-Udacity
+## Payment Application
 
+### Project Description:
+The project is developed as part of the Embedded Systems Professional Track offered by Udacity and EGFWD. It is implemented using the C programming language in Microsoft Visual Studio.
 
-## Withdrawal or Payment Transactions
+### System Description:
+The project focuses on the development of a payment system simulation, which emulates the functionality of a SALE transaction. The system comprises three main modules: Card, Terminal (ATM), and Server. Each module serves a specific purpose within the system.
 
+#### 1-Card Module:
+The Card Module is responsible for storing essential card data, including the Card Holder Name, Primary Account Number, and Card Expiry Date. This module acts as a virtual representation of the physical card.
 
-### The project is divided into 4 sections:
+#### 2-Terminal (ATM) Module:
+The Terminal Module, also referred to as the ATM module, facilitates user interaction with the payment system. It handles user interfaces and performs various functions. The module stores the transaction date and validates whether the card is expired or valid. Additionally, it maintains the transaction amount and checks if it exceeds the maximum limit allowed for the ATM.
 
-#### 1-Card 
-#### 2-Terminal
-#### 3-Server 
-#### 4-Application
+#### 3-Server Module:
+The Server Module is responsible for authentication and account verification. It validates the user's account by checking if it is present within the server's database. Furthermore, the module checks the account's state (whether it is running or blocked) and determines if the account has a sufficient balance to allow for withdrawals.
 
+#### 4-Application Module:
+The Application Module plays a crucial role in the payment system simulation by serving as the entry point for the code execution and facilitating seamless integration between the Card, Terminal (ATM), and Server modules. Its primary responsibilities include system initialization, coordination of module interactions, and overall control of the application flow.
 
-Card section has 2 files .c and .h and is responsible for getting card holder name, getting expiry date, and get card PAN (Primary Account Number).
+## For code explantation and tests please check the links below:
 
-Terminal section has 2 files .c and .h and is responsible for getting transaction date, checking if card is expired, getting transaction amount, setting max withdrawal amount per transaction, and checking if transaction amount is lower than the max withdrawal amount.
+Drive: https://drive.google.com/drive/folders/1eULdUeJsRnudqk2uZlun48x__3y_r5PR?usp=drive_link
 
-Server section has 2 files .c and .h and is responsible for reloading data base of all accounts from the server, checking the validity of the account in the transaction, checking if the account has the amount requested, if yes transaction is saved and if no transaction is canceled. After that we reload and upload the database to the server.
-
-Application has 2 files .c and .h and is responsible for starting the application.
-
-## For code explantation and tests please check the link below:
-
-https://drive.google.com/drive/folders/1eULdUeJsRnudqk2uZlun48x__3y_r5PR?usp=drive_link
 Reload Transaction Database & upload Transactions: https://www.youtube.com/watch?v=pHcRpT8Iwtc
+
 Tests: https://www.youtube.com/watch?v=ygkCXNRcIqU&t=106s
 
 ## Transaction data base:
@@ -36,10 +37,13 @@ Tests: https://www.youtube.com/watch?v=ygkCXNRcIqU&t=106s
 
 ![image](https://github.com/MostafaELFEEL/-MostafaELFEEL-s-Project-1-professional-embedded-course-Udacity/assets/106331831/027861f8-9fed-40fd-9a9b-250fb9b4e100)
 
-## Updated Transaction data base:
+## Updated Transaction data base after the above transaction:
 ![image](https://github.com/MostafaELFEEL/-MostafaELFEEL-s-Project-1-professional-embedded-course-Udacity/assets/106331831/445e4a60-4417-4b2f-afd4-f618073184ab)
 
-## Updated Accounts data base:
+## Updated Accounts data base after the above transaction:
 ![image](https://github.com/MostafaELFEEL/-MostafaELFEEL-s-Project-1-professional-embedded-course-Udacity/assets/106331831/803aea2b-2c6e-4b03-88e1-b59499a5bf6a)
+
+## File Structure:
+![image](https://github.com/MostafaELFEEL/-MostafaELFEEL-s-Project-1-professional-embedded-course-Udacity/assets/106331831/3c79474e-e73e-444c-92c8-d23564735978)
 
 
