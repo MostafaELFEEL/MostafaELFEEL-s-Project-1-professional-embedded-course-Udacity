@@ -20,7 +20,7 @@ Server section has 2 files .c and .h and is responsible for reloading data base 
 
 Application has 2 files .c and .h and is responsible for starting the application.
 
-For code explantation and tests please check the link below:
+## For code explantation and tests please check the link below:
 
 https://drive.google.com/drive/folders/1eULdUeJsRnudqk2uZlun48x__3y_r5PR?usp=drive_link
 
