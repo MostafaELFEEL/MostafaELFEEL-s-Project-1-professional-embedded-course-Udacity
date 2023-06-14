@@ -78,7 +78,7 @@ void saveTransaction(ST_accountsDB_t serverData[255]) {
 		fprintf(WriteDB, "\n%s-%f-", serverData[loop].primaryAccountNumber, serverData[loop].balance);
 	}
 	fclose(WriteDB);
-	printf("TRANSACTION_SAVED\n");
+	printf("TRANSACTION_SAVED\n\n");
 }
 
 /*******************************************************************************/
