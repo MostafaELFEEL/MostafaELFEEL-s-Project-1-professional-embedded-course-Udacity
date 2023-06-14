@@ -19,3 +19,11 @@ Terminal section has 2 files .c and .h and is responsible for getting transactio
 Server section has 2 files .c and .h and is responsible for reloading data base of all accounts from the server, checking the validity of the account in the transaction, checking if the account has the amount requested, if yes transaction is saved and if no transaction is canceled. After that we reload and upload the database to the server.
 
 Application has 2 files .c and .h and is responsible for starting the application.
+
+## Transaction data base:
+![image](https://github.com/MostafaELFEEL/-MostafaELFEEL-s-Project-1-professional-embedded-course-Udacity/assets/106331831/a064b968-4a81-48c9-8782-d5aa02b91c06)
+
+## Accounts data base:
+![image](https://github.com/MostafaELFEEL/-MostafaELFEEL-s-Project-1-professional-embedded-course-Udacity/assets/106331831/9c210e27-9f28-4dab-909b-ebad5fa90ac0)
+
+## Program:
