@@ -62,6 +62,9 @@ EN_serverError_t isAmountAvailable(ST_terminalData_t* termData, ST_accountsDB_t 
 	else {
 		serverData[array_number].balance = (serverData[array_number].balance) - (termData->transAmount);
 		printf("TRANSACTION_ACCEPTED\n");
+		printf("Your new balance is ");
+		printf("%f", serverData[array_number].balance);
+		printf("\n");
 		return OKK;
 	}
 }
