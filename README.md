@@ -1,4 +1,4 @@
-# MostafaELFEEL's Project 1: Professional Embedded Course on Udacity
+# Project 1: Professional Embedded Course on Udacity
 
 ## Payment Application
 
